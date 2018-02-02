@@ -26,9 +26,9 @@ def populate():
 
     other_pages = [
         {"title":"Bottle",
-         "url":"http://bottlepy.org/docs/dev/"},
+         "url":"http://bottlepy.org/docs/dev/", "views": 15},
         {"title":"Flask",
-         "url":"http://flask.pocoo.org"}]
+         "url":"http://flask.pocoo.org", "views": 24}]
 
     cats = {"Python": {"pages": python_pages, "likes":64, "views":128},
             "Django": {"pages": django_pages, "likes":32, "views":64},
