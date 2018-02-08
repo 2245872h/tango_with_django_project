@@ -28,7 +28,7 @@ def index(request):
     return response
                     
 def about(request):
-    context_dict = {'boldmessage' : "This tutorial has been put together by Emma Hunter."}
+    context_dict = {'boldmessage' : "Rango says here is the about page"}
     visitor_cookie_handler(request)
     context_dict['visits'] = request.session['visits']
     return render(request, 'rango/about.html', context=context_dict)
